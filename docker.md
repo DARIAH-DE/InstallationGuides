@@ -12,7 +12,7 @@
 ***
 
 #### Windows: Vorbereitung
-1. Um festzustellen, ob auf Ihrem Computer eine 32-Bit oder 64-Bit Version von Windows installiert ist, klicken Sie mit der rechten Maustaste unten links auf das **Windows Symbol**
+1. Um festzustellen, ob auf Ihrem Computer eine 32-Bit oder 64-Bit Version von Windows installiert ist, klicken Sie mit der rechten Maustaste unten links auf das **Windows-Symbol**
 2. Klicken Sie auf **System**
 3. Im nun geöffneten Fenster kann in der Zeile **Systemtyp** die Version eingesehen werden
 4. Wenn eine 64-Bit Version installiert ist, klicken Sie [hier](https://download.docker.com/win/beta/InstallDocker.msi) um die Docker-Installationsdatei zu downloaden
