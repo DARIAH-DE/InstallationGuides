@@ -9,7 +9,7 @@ Der [DARIAH-DKPro-Wrapper](https://github.com/DARIAH-DE/DARIAH-DKPro-Wrapper) b�
 - Linux: Tastenkombination **Strg + Alt + T**
 
 #### Java installieren
-1. Überprüfen Sie mit dem Befehl `java -version` ob und in welcher Version Java Runtime Environment installiert ist (erforderlich mindestens 1.8)
+1. Überprüfen Sie mit dem Befehl `java -version` über das Terminal ob und in welcher Version Java Runtime Environment installiert ist (erforderlich mindestens 1.8)
 2. Wird `command not found` angezeigt, downloaden Sie die entsprechende Installationsdatei von der [Oracle Website](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html)
 3. Folgen Sie den Anweisungen des Installationsmanagers
 
