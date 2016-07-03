@@ -10,26 +10,24 @@
 
 ***
 
-#### Windows: Python 3 installieren
+#### Windows: Python 3 + Pakete installieren
 1. Klicken Sie [hier](https://www.python.org/ftp/python/3.5.2/python-3.5.2-amd64.exe) um die Installationsdatei zu downloaden 2. Öffnen Sie die Datei `python-3.5.2.exe` und folgen Sie den Anweisungen
 3. Achten Sie darauf, dass ein Häkchen bei **Add Python to PATH** gesetzt ist  
-
-#### Windows: Pakete installieren
-1. Öffnen Sie mit der Tastenkombination **Windowstaste + R** das Terminal und aktualisieren Sie das Setuptool **pip** mit dem Befehl `pip3 install --upgrade pip`
-3. Mit `pip3 install numpy matplotlib gensim` installieren Sie nun alle für Topic Modeling relevanten Pakete
+4. Öffnen Sie mit der Tastenkombination **Windowstaste + R** das Terminal und aktualisieren Sie das Setuptool **pip** mit dem Befehl `pip3 install --upgrade pip`
+5. Mit `pip3 install numpy matplotlib gensim` installieren Sie nun alle für Topic Modeling relevanten Pakete
 
 ***
 
-#### OS X: Python 3 installieren
-* Python (mindestens v3.5.1) auf der [Website](https://www.python.org/downloads/) downloaden und installieren
-* Sicher gehen, dass bei **Install or upgrade pip** ein  Häkchen gesetzt ist
-* Spotlight öffnen, "terminal" eintippen und bestätigen
-* Über die nun geöffnete Kommandozeile alle erforderlichen Libraries installieren:
-*       pip3 install numpy matplotlib gensim
+#### OS X: Python 3 + Pakete installieren
+1. Klicken Sie [hier](https://www.python.org/ftp/python/3.5.2/python-3.5.2-macosx10.6.pkg) um die Installationsdatei zu downloaden
+2. Öffnen Sie die Datei `python-3.5.2-macosx10.6.pkg` und folgen Sie den Anweisungen
+3. Mit der Tastenkombination **cmd + Leertaste** die Spotlight-Suche öffnen, **terminal** eintippen und mit Enter bestätigen
+4. Mit `pip3 install numpy matplotlib gensim` installieren Sie nun alle für Topic Modeling relevanten Pakete
 
-##### Linux Ubuntu
-**Hinweis:** Ubuntu 16.04 wird standardmäßig mit Python 3 ausgeliefert, deswegen entfällt hier der erste Befehl.
-* Terminal öffnen, folgende Befehle eintippen und jeweils mit Enter bestätigen:
-*       sudo apt-get install python3
-*       sudo apt-get install python3-pip
-*       sudo pip3 install numpy matplotlib gensim
+#### Linux Ubuntu: Pakete installieren + opt. Python 3
+**Hinweis:** Ubuntu 16.04 wird standardmäßig mit Python 3 ausgeliefert, deshalb kann 2. übersprungen werden.
+
+1. Mit der Tastenkombination **Strg + Alt + T** das Terminal öffnen
+2. Mit `sudo apt-get install python3` installieren Sie Python 3 über die Package-Datenbank
+3. Mit `sudo apt-get install python3-pip`installieren Sie das Setuptool **pip**
+4. Alle nötigen Pakete werden mit `sudo pip3 install numpy matplotlib gensim` installiert
