@@ -58,7 +58,7 @@ This message shows that your installation appears to be working correctly.
 2. Der **Wal in der Statusleiste** oben rechts weist darauf hin, dass Docker funktionstüchtig ist und über den [Terminal](https://de.wikipedia.org/wiki/Terminal_(Computer)) bedient werden kann
 
 #### OS X: Terminal öffnen
-1. Klicken Sie oben rechts in der Statusleiste auf die Lupe und öffnen so **Spotlight-Suche**
+1. Öffnen Sie mit der Tastenkombination **cmd + Leertaste** die **Spotlight-Suche**
 2. Tippen Sie **terminal** ein und bestätigen mit Enter
 3. Das Terminal, mit dem sich Docker bedienen lässt, öffnet sich
 4. Um zu überprüfen, ob Docker erfolgreich installiert wurde, tippen Sie `docker run hello-world` in das Terminal und bestätigen mit Enter
