@@ -18,7 +18,7 @@ Der [DARIAH-DKPro-Wrapper](https://github.com/DARIAH-DE/DARIAH-DKPro-Wrapper) b�
 #### DARIAH-DKPro-Wrapper einsatzbereit machen
 1. Downloaden Sie [hier](https://github.com/DARIAH-DE/DARIAH-DKPro-Wrapper/releases) das ZIP-Archiv des aktuellen Release, z. B. **ddw-0.4.5.zip**
 2. Entpacken Sie das Archiv
-3. Tippen Sie `cd /pfad/zum/entpackten/archiv` in das Terminal und bestätigen mit Enter
+3. Tippen Sie `cd /pfad/zum/entpackten/archiv` in das Terminal, achten Sie darauf, dass der tatsächliche [Pfad](https://de.wikipedia.org/wiki/Pfadname) angegeben ist und bestätigen mit Enter
 
 #### DARIAH-DKPro-Wrapper benutzen
 1. Um den DKPro-Wrapper nun zu testen, downloaden Sie [hier](https://wiki.de.dariah.eu/download/attachments/40213783/EffiBriestKurz.txt) ein Textbeispiel
