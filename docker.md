@@ -72,7 +72,7 @@ This message shows that your installation appears to be working correctly.
 
 ***
 
-#### Linux Ubuntu: Vorbereitungen
+#### Linux Ubuntu: Vorbereitung
 1. Öffnen Sie mit der Tastenkombination **Strg + Alt + T** das Terminal und überprüfen Sie mit `uname -r` die Kernel-Version. Um Docker problemlos nutzen zu können, muss mindestens **3.10** installiert sein
 2. Aktualisieren Sie die Paket-Datenbank mit `sudo apt-get update`
 
