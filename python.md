@@ -8,14 +8,19 @@
 2. Installation unter OS X
 3. Installation unter Linux
 
-##### Windows
-* Die neuste Python Version [von hier herunterladen](https://www.python.org/downloads/) und die *.exe* ausführen, dabei unbedingt einen **Haken bei *Add Python to PATH*** setzen  
-* Die Eingabeaufforderung öffnen (Win10: *cmd* in die Searchbar eingeben, Win7: Windows-Taste + R und *cmd* eingeben) und das Setuptool *pip* aktualisieren:
-*     python -m pip install --upgrade pip
-*  Mit *pip* die fürs Topic Modeling notwendigen Libraries installieren:    
-*     pip3 install numpy matplotlib gensim
+***
 
-##### Mac OS X
+#### Windows: Python 3 installieren
+1. Klicken Sie [hier](https://www.python.org/ftp/python/3.5.2/python-3.5.2-amd64.exe) um die Installationsdatei zu downloaden 2. Öffnen Sie die Datei `python-3.5.2.exe` und folgen Sie den Anweisungen
+3. Achten Sie darauf, dass ein Häkchen bei *Add Python to PATH* gesetzt ist  
+
+#### Windows: Pakete installieren
+1. Öffnen Sie mit der Tastenkombination **Windowstaste + R** das Terminal und aktualisieren Sie das Setuptool **pip** mit dem Befehl `pip3 install --upgrade pip`
+3. Mit `pip3 install numpy matplotlib gensim` installieren Sie nun alle für Topic Modeling relevanten Pakete
+
+***
+
+#### OS X: Python 3 installieren
 * Python (mindestens v3.5.1) auf der [Website](https://www.python.org/downloads/) downloaden und installieren
 * Sicher gehen, dass bei **Install or upgrade pip** ein  Häkchen gesetzt ist
 * Spotlight öffnen, "terminal" eintippen und bestätigen
