@@ -1,4 +1,13 @@
-### Python Installationsguide für Topic Modeling
+# Installationsanleitung: Python für Topic Modeling
+![Python](https://upload.wikimedia.org/wikipedia/commons/f/f8/Python_logo_and_wordmark.svg)
+
+[Python](https://www.python.org) ist eine universelle und [interpretierte](https://de.wikipedia.org/wiki/Interpreter) Programmiersprache, die über eine klare und übersichtliche Syntax verfügt sowie eine umfangreiche Standardbibliothek und zahlreiche Pakete im [PyPI](https://pypi.python.org/pypi) besitzt. Ihre Entwurfsphilosophie betont Programmlesbarkeit, außerdem ist Python-Code im Vergleich mit anderssprachigem Code teilweise deutlich kürzer.
+
+## Navigation
+1. Installation unter Windows
+2. Installation unter OS X
+3. Installation unter Linux
+
 ##### Windows
 * Die neuste Python Version [von hier herunterladen](https://www.python.org/downloads/) und die *.exe* ausführen, dabei unbedingt einen **Haken bei *Add Python to PATH*** setzen  
 * Die Eingabeaufforderung öffnen (Win10: *cmd* in die Searchbar eingeben, Win7: Windows-Taste + R und *cmd* eingeben) und das Setuptool *pip* aktualisieren:
