@@ -7,7 +7,7 @@ Docker ist eine [Open-Source-Software](https://de.wikipedia.org/wiki/Open_Source
 ## Navigation
 1. [Installation unter Windows](#windows-vorbereitung)
 2. [Installation unter OS X](#os-x-vorbereitung)
-3. Installation unter Linux
+3. [Installation unter Linux](#linux-ubuntu-vorbereitung)
 
 ***
 
@@ -31,27 +31,13 @@ Docker ist eine [Open-Source-Software](https://de.wikipedia.org/wiki/Open_Source
 1. Öffnen Sie mit der Tastenkombination **Windowstaste + R** das Ausführen-Fenster
 2. Tippen Sie **cmd.exe** ein und bestätigen mit Enter
 3. Der Terminal, mit dem sich Docker bedienen lässt, öffnet sich
-4. Um zu überprüfen, ob Docker erfolgreich installiert wurde, tippen Sie `docker version` in das Terminal und bestätigen mit Enter
+4. Um zu überprüfen, ob Docker erfolgreich installiert wurde, tippen Sie `docker run hello-world` in das Terminal und bestätigen mit Enter
 5. Wenn folgende Meldung angezeigt wird, wurde Docker erfolgreich installiert
 
 ~~~
-Client:
-Version:      1.12.0-rc2
-API version:  1.24
-Go version:   go1.6.2
-Git commit:   906eacd
-Built:        Fri Jun 17 20:35:33 2016
-OS/Arch:      windows/amd64
-Experimental: true
-
-Server:
-Version:      1.12.0-rc2
-API version:  1.24
-Go version:   go1.6.2
-Git commit:   a7119de
-Built:        Fri Jun 17 22:09:20 2016
-OS/Arch:      linux/amd64
-Experimental: true
+Hello from Docker.
+This message shows that your installation appears to be working correctly.
+...
 ~~~
 
 ***
@@ -75,25 +61,51 @@ Experimental: true
 1. Klicken Sie oben rechts in der Statusleiste auf die Lupe und öffnen so Spotlight-Suche
 2. Tippen Sie **terminal** ein und bestätigen mit Enter
 3. Der Terminal, mit dem sich Docker bedienen lässt, öffnet sich
-4. Um zu überprüfen, ob Docker erfolgreich installiert wurde, tippen Sie `docker version` in das Terminal und bestätigen mit Enter
+4. Um zu überprüfen, ob Docker erfolgreich installiert wurde, tippen Sie `docker run hello-world` in das Terminal und bestätigen mit Enter
 5. Wenn folgende Meldung angezeigt wird, wurde Docker erfolgreich installiert
 
 ~~~
-Client:
-Version:      1.12.0-rc2
-API version:  1.24
-Go version:   go1.6.2
-Git commit:   906eacd
-Built:        Fri Jun 17 20:35:33 2016
-OS/Arch:      windows/amd64
-Experimental: true
+Hello from Docker.
+This message shows that your installation appears to be working correctly.
+...
+~~~
 
-Server:
-Version:      1.12.0-rc2
-API version:  1.24
-Go version:   go1.6.2
-Git commit:   a7119de
-Built:        Fri Jun 17 22:09:20 2016
-OS/Arch:      linux/amd64
-Experimental: true
+***
+
+#### Linux Ubuntu: Vorbereitungen
+1. Öffnen Sie mit der Tastenkombination **Strg + Alt + T** das Terminal und überprüfen Sie mit `uname -r` die Kernel-Version. Um Docker problemlos nutzen zu können, muss mindestens **3.10** installiert sein
+2. Aktualisieren Sie die Paket-Datenbank mit `sudo apt-get update`
+
+#### Linux Ubuntu: Installation
+1. Fügen Sie den GPG Schlüssel des offiziellen Docker Repositorys dem System hinzu
+~~~
+sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+~~~
+2. Fügen Sie das Docker Repository APT hinzu
+~~~
+echo "deb https://apt.dockerproject.org/repo ubuntu-xenial main" | sudo tee /etc/apt/sources.list.d/docker.list
+~~~
+3. Aktualisieren Sie Die Paket-Datenbank mit `sudo apt-get update` erneut um die Docker Packages sehen zu können
+4. Vergewissern Sie sich mit `apt-cache policy docker-engine`, dass Sie direkt vom Docker Repository installieren. Folgendes sollte angezeigt werden (die `docker-engine` Version könnte eine andere sein)
+~~~
+docker-engine:
+  Installed: (none)
+  Candidate: 1.11.1-0~xenial
+  Version table:
+     1.11.1-0~xenial 500
+        500 https://apt.dockerproject.org/repo ubuntu-xenial/main amd64 Packages
+     1.11.0-0~xenial 500
+        500 https://apt.dockerproject.org/repo ubuntu-xenial/main amd64 Packages
+~~~
+5. Um Docker schließlich zu installieren, bestätigen Sie folgenden Befehl mit Enter
+~~~
+sudo apt-get install -y docker-engine
+~~~
+4. Um zu überprüfen, ob Docker erfolgreich installiert wurde, tippen Sie `docker run hello-world` in das Terminal und bestätigen mit Enter
+5. Wenn folgende Meldung angezeigt wird, wurde Docker erfolgreich installiert
+
+~~~
+Hello from Docker.
+This message shows that your installation appears to be working correctly.
+...
 ~~~
