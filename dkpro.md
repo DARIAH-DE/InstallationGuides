@@ -17,5 +17,11 @@ Der DARIAH-DKPro-Wrapper bündelt eine Reihe von Annotationstechniken aus dem Be
 
 #### DARIAH-DKPro-Wrapper einsatzbereit machen
 1. Downloaden Sie [hier](https://github.com/DARIAH-DE/DARIAH-DKPro-Wrapper/releases) das ZIP-Archiv des aktuellen Release, z. B. **ddw-0.4.5.zip**
-2. Entpacken Sie das Archiv an einen Ort Ihrer Wahl, z. B. in den Benutzerordner `/users/meinname`
-3. Tippen
+2. Entpacken Sie das Archiv an einen Ort Ihrer Wahl
+3. Tippen Sie `cd /pfad/zum/dkpro/wrapper` in das Terminal und bestätigen mit Enter
+
+#### DARIAH-DKPro-Wrapper benutzen
+1. Um den DKPro-Wrapper nun zu testen, downloaden Sie sich [hier](https://wiki.de.dariah.eu/download/attachments/40213783/EffiBriestKurz.txt) ein Textbeispiel
+2. Tippen Sie `java -Xmx4g -jar ddw-0.4.5.jar -language de -input /pfad/zu/EffiBriestKurz.txt -output .` in das Terminal und bestätigen nach Anpassung der Parameter mit Enter
+
+**Hinweis**: Ersetzen Sie `/pfad/zu/EffiBriestKurz.txt` mit dem tatsächlichen Pfad zur Textdatei.
