@@ -32,7 +32,7 @@ Mithilfe dieser Anleitung können Sie Python 3 sowie die Pakete [numpy](http://w
 #### Linux Ubuntu: Python und Pakete installieren
 **Hinweis:** Ubuntu 16.04 wird standardmäßig mit Python 3 ausgeliefert, deshalb kann 2. übersprungen werden.
 
-1. Mit der Tastenkombination **Strg + Alt + T** das Terminal öffnen
+1. Öffnen Sie mit der Tastenkombination **Strg + Alt + T** das Terminal
 2. Mit `sudo apt-get install python3` installieren Sie Python 3 über die Package-Datenbank
 3. Mit `sudo apt-get install python3-pip`installieren Sie das Setuptool **pip**
 4. Alle nötigen Pakete werden mit `sudo pip3 install numpy matplotlib gensim` installiert
