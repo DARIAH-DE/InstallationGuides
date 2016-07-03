@@ -54,8 +54,8 @@ This message shows that your installation appears to be working correctly.
 2. Folgen Sie den Anweisungen
 
 #### OS X: Docker starten
-1. Über das Launchpad kann Docker durch klicken des Docker-Symbols gestartet werden
-2. Der Wal in der Statusleiste oben rechts weist darauf hin, dass Docker funktionstüchtig ist und über den [Terminal](https://de.wikipedia.org/wiki/Terminal_(Computer)) bedient werden kann
+1. Über das **Launchpad** kann Docker durch Klicken des Docker-Symbols gestartet werden
+2. Der **Wal in der Statusleiste** oben rechts weist darauf hin, dass Docker funktionstüchtig ist und über den [Terminal](https://de.wikipedia.org/wiki/Terminal_(Computer)) bedient werden kann
 
 #### OS X: Terminal öffnen
 1. Klicken Sie oben rechts in der Statusleiste auf die Lupe und öffnen so **Spotlight-Suche**
