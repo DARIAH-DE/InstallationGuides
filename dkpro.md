@@ -23,7 +23,7 @@ Der [DARIAH-DKPro-Wrapper](https://github.com/DARIAH-DE/DARIAH-DKPro-Wrapper) b�
 
 #### DARIAH-DKPro-Wrapper benutzen
 1. Um den DKPro-Wrapper nun zu testen, downloaden Sie [hier](https://wiki.de.dariah.eu/download/attachments/40213783/EffiBriestKurz.txt) ein Textbeispiel
-2. Tippen Sie `java -Xmx4g -jar ddw-0.4.5.jar -language de -input /pfad/zu/EffiBriestKurz.txt -output .` in das Terminal und bestätigen nach Anpassung der Parameter (`/pfad/zu/EffiBriestKurz.txt` mit dem tatsächlichen Pfad zur Textdatei) mit Enter
+2. Tippen Sie `java -Xmx4g -jar ddw-0.4.5.jar -language de -input /pfad/zu/EffiBriestKurz.txt -output .` in das Terminal und bestätigen nach Anpassung der Parameter (`/pfad/zu/EffiBriestKurz.txt` mit dem tatsächlichen Pfad zur Textdatei ersetzen) mit Enter
 3. Wenn nach etwa einer Minuten folgendes angezeigt wird, funktioniert der DARIAH-DKPro-Wrapper tadellos
 
 ~~~
