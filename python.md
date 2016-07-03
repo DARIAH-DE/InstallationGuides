@@ -12,7 +12,7 @@
 
 #### Windows: Python 3 installieren
 1. Klicken Sie [hier](https://www.python.org/ftp/python/3.5.2/python-3.5.2-amd64.exe) um die Installationsdatei zu downloaden 2. Öffnen Sie die Datei `python-3.5.2.exe` und folgen Sie den Anweisungen
-3. Achten Sie darauf, dass ein Häkchen bei *Add Python to PATH* gesetzt ist  
+3. Achten Sie darauf, dass ein Häkchen bei **Add Python to PATH** gesetzt ist  
 
 #### Windows: Pakete installieren
 1. Öffnen Sie mit der Tastenkombination **Windowstaste + R** das Terminal und aktualisieren Sie das Setuptool **pip** mit dem Befehl `pip3 install --upgrade pip`
