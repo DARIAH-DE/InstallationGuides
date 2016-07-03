@@ -5,11 +5,11 @@
 Docker ist eine [Open-Source-Software](https://de.wikipedia.org/wiki/Open_Source), mit der Anwendungen in einem [virtuellen Betriebssystem](https://de.wikipedia.org/wiki/Virtualisierung_(Informatik)) ausgeführt werden können. Dies vereinfacht die Bereitstellung der Anwendungen und beugt Probleme bei der Installation einzelner Komponenten vor.
 
 ##Navigation
-1. [Installation unter Windows](1)
+1. [Installation unter Windows](windows-vorbereitung)
 2. Installation unter OS X
 3. Installation unter Linux
 
-### [Windows: Vorbereitung][1]
+### Windows: Vorbereitung
 1. Um festzustellen, ob auf Ihrem Computer eine 32-Bit oder 64-Bit Version von Windows installiert ist, klicken Sie mit der rechten Maustaste unten rechts auf das **Windows Symbol**
 2. Klicken Sie auf **System**
 3. Im nun geöffneten Fenster kann in der Zeile **Systemtyp** die Version eingesehen werden
