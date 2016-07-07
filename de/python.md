@@ -25,6 +25,7 @@ Mithilfe dieser Anleitung können Sie Python 3 sowie die Pakete [numpy](http://w
 1. Klicken Sie [hier](https://www.python.org/ftp/python/3.5.2/python-3.5.2-macosx10.6.pkg) um die Installationsdatei zu downloaden
 2. Öffnen Sie die Datei `python-3.5.2-macosx10.6.pkg` und folgen Sie den Anweisungen
 3. Mit der Tastenkombination **cmd + Leertaste** die Spotlight-Suche öffnen, **terminal** eintippen und mit Enter bestätigen
+4. Aktualisieren Sie das Setuptool **pip** mit dem Befehl `pip3 install --upgrade pip`
 4. Mit `pip3 install numpy matplotlib gensim` installieren Sie nun alle für Topic Modeling relevanten Pakete
 
 ***
@@ -34,5 +35,5 @@ Mithilfe dieser Anleitung können Sie Python 3 sowie die Pakete [numpy](http://w
 
 1. Öffnen Sie mit der Tastenkombination **Strg + Alt + T** das Terminal
 2. Mit `sudo apt-get install python3` installieren Sie Python 3 über die Package-Datenbank
-3. Mit `sudo apt-get install python3-pip`installieren Sie das Setuptool **pip**
+3. Mit `sudo apt-get install python3-pip`installieren Sie das Setuptool **pip** (alternativ mit `pip3 install --upgrade pip` updaten)
 4. Alle nötigen Pakete werden mit `sudo pip3 install numpy matplotlib gensim` installiert
