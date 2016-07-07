@@ -39,4 +39,4 @@ Use this guide to install Python 3, [numpy](http://www.numpy.org), [matplotlib](
 1. Open the terminal using the key combination **Ctrl + Alt + T**
 2. Install Python 3 with `sudo apt-get install python3`
 3. `sudo apt-get install you python3-pip` will install the steup-tool **pip** (alternatively use `sudo pip3 install --upgrade pip` to upgrade)
-4. `sudo pip3 install numpy matplotlib gensim` will install all pertinent Topic Modeling packages
+4. Use `sudo pip3 install numpy matplotlib gensim` to install all pertinent Topic Modeling packages
