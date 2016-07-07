@@ -1,5 +1,5 @@
 # Installationsanleitung: DARIAH-DKPro-Wrapper
-<img src="https://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Shared_Icons/DKPro.png" width="150" height="150">
+![DKPro](https://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Shared_Icons/DKPro.png)
 
 Der [DARIAH-DKPro-Wrapper](https://github.com/DARIAH-DE/DARIAH-DKPro-Wrapper) bündelt eine Reihe von [Annotationstechniken](https://github.com/DARIAH-DE/DARIAH-DKPro-Wrapper/blob/master/doc/tutorial.adoc#AvailableComponents) aus dem Bereich [Natural Language Processing](https://en.wikipedia.org/wiki/Natural_language_processing), die mithilfe der [Kommandozeile](https://de.wikipedia.org/wiki/Kommandozeile) auch ohne tiefgreifende Informatikkenntnisse genutzt werden können. Die Software ist betriebssystemunabhängig und erfordert lediglich [Java Runtime Enivronment](https://de.wikipedia.org/wiki/Java-Laufzeitumgebung).
 
