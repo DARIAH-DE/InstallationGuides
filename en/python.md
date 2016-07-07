@@ -8,9 +8,9 @@
 Use this guide to install Python 3 as well as the packages [numpy](http://www.numpy.org), [matplotlib](http://matplotlib.org) and [gensim](https://radimrehurek.com/gensim/) installieren.
 
 ## Navigation
-1. [Installation on Windows](#windows-python-und-pakete-installieren)
-2. [Installation on OS X](#os-x-python-und-pakete-installieren)
-3. [Installation on Linux](#linux-ubuntu-python-und-pakete-installieren)
+1. [Installation on Windows](#windows-installing-python-and-packages)
+2. [Installation on OS X](#os-x-installing-python-and-packages)
+3. [Installation on Linux](#linux-ubuntu-installing-python-and-packages)
 
 ***
 
@@ -20,6 +20,7 @@ Use this guide to install Python 3 as well as the packages [numpy](http://www.nu
 3. Ensure that **Add Python to PATH** is selected
 4. Open the terminal using the key combination **Windows key + R** and upgrade the setup-tool **pip** with `pip3 install --upgrade pip`
 5. `pip3 install numpy matplotlib gensim` will install all pertinent Topic Modeling packages
+
 ***
 
 #### OS X: Installing Python and packages
