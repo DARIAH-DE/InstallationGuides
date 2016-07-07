@@ -1,5 +1,5 @@
 # Installation Guide: DARIAH-DKPro-Wrapper
-![dk](https://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Shared_Icons/DKPro.png)
+![DKPro](https://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Shared_Icons/DKPro.png)
 
 [DARIAH-DKPro-Wrapper] (https://github.com/DARIAH-DE/DARIAH-DKPro-Wrapper) bundles the abilities of [several](https://github.com/DARIAH-DE/DARIAH-DKPro-Wrapper/blob/master/doc/tutorial.adoc#AvailableComponents) state-of-the-art [Natural Language Processing](https://en.wikipedia.org/wiki/Natural_language_processing) tools. You have to use the wrapper with the command prompt, but profound computer science knowledge is not necessary. The software is operating system independent and simply requires [Java Runtime Enivronment](https://en.wikipedia.org/wiki/Java_virtual_machine#Execution_environment).
 
