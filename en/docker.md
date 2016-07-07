@@ -2,7 +2,7 @@
 
 ![Docker Logo](https://upload.wikimedia.org/wikipedia/commons/7/79/Docker_%28container_engine%29_logo.png)
 
-[Docker](https://www.docker.com) is an [Open-Source-Software](https://de.wikipedia.org/wiki/Open_Source), that wraps up applications in a [software container](https://en.wikipedia.org/wiki/Operating-system-level_virtualization). This simplifies the deployment of applications and prevents problems with the installation of individual components.
+[Docker](https://www.docker.com) is an [open-source software](https://en.wikipedia.org/wiki/Open-source_model), that wraps up applications in a [software container](https://en.wikipedia.org/wiki/Operating-system-level_virtualization). This simplifies the deployment of applications and prevents problems with the installation of individual components.
 
 ## Navigation
 1. [Installation on Windows](#windows-prearrangement)
