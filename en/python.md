@@ -2,7 +2,7 @@
 
 ![Python](https://upload.wikimedia.org/wikipedia/commons/f/f8/Python_logo_and_wordmark.svg)
 
-[Python](https://www.python.org) is a general-purpose, interpreted and widely used programming language. Its design philosophy emphasizes code readability and simple syntax as well as an extensive standard library and numerous packages available on [PyPI](https://pypi.python.org/pypi). Compared to other programming languages, Python code is considerably shorter.
+[Python](https://www.python.org) is a general-purpose, interpreted and widely used programming language. Its design philosophy emphasizes code readability and simple syntax, as well as an extensive standard library and numerous packages available on [PyPI](https://pypi.python.org/pypi). Compared to other programming languages, Python code is considerably shorter.
 
 
 Use this guide to install Python 3, [numpy](http://www.numpy.org), [matplotlib](http://matplotlib.org) and [gensim](https://radimrehurek.com/gensim/).
