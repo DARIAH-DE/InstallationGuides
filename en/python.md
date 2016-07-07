@@ -5,7 +5,7 @@
 [Python](https://www.python.org) is a general-purpose, interpreted and widely used programming language. Its design philosophy emphasizes as well code readability and simple syntax as an extensive standard library and numerous packages available on [PyPI](https://pypi.python.org/pypi). Compared to other programming languages, Python code is considerably shorter.
 
 
-Use this guide to install Python 3 as well as the packages [numpy](http://www.numpy.org), [matplotlib](http://matplotlib.org) and [gensim](https://radimrehurek.com/gensim/) installieren.
+Use this guide to install Python 3, [numpy](http://www.numpy.org), [matplotlib](http://matplotlib.org) and [gensim](https://radimrehurek.com/gensim/).
 
 ## Navigation
 1. [Installation on Windows](#windows-installing-python-and-packages)
