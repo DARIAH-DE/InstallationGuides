@@ -1,6 +1,6 @@
 # Installation Guides
 
-Zweisprachig vorhanden
+Zweisprachig vorhanden, aber noch nicht 100% fertig...
 
 ### Done:
 - Python
