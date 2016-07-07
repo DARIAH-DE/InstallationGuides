@@ -5,9 +5,9 @@
 [Docker](https://www.docker.com) is an [Open-Source-Software](https://de.wikipedia.org/wiki/Open_Source), that wraps up applications in a [software container](https://en.wikipedia.org/wiki/Operating-system-level_virtualization). This simplifies the deployment of applications and prevents problems with the installation of individual components.
 
 ## Navigation
-1. [Installation on Windows](#windows-vorbereitung)
-2. [Installation on OS X](#os-x-vorbereitung)
-3. [Installation on Linux Ubuntu](#linux-ubuntu-vorbereitung)
+1. [Installation on Windows](#windows-prearrangement)
+2. [Installation on OS X](#os-x-prearrangement)
+3. [Installation on Linux Ubuntu](#linux-ubuntu-prearrangement)
 
 ***
 
@@ -69,7 +69,7 @@ This message shows that your installation appears to be working correctly.
 
 ***
 
-#### Linux Ubuntu: Vorbereitung
+#### Linux Ubuntu: Prearrangement
 1. Open the terminal using shortcut **Ctrl + Alt + T** to check the kernel version using `uname -r` (required: at least **3.10**)
 3. Update the package database with `sudo apt-get update`
 
