@@ -18,8 +18,9 @@ Use this guide to install Python 3, [numpy](http://www.numpy.org), [matplotlib](
 1. Click [here](https://www.python.org/ftp/python/3.5.2/python-3.5.2-amd64.exe) to download the installation file
 2. Open the file `python-3.5.2.exe` and follow the instructions
 3. Ensure that **Add Python to PATH** is selected
-4. Open the terminal using the key combination **Windows key + R** and upgrade the setup-tool **pip** with `pip3 install --upgrade pip`
-5. `pip3 install numpy matplotlib gensim` will install all pertinent Topic Modeling packages
+4. Open the terminal using the key combination **Windows key + R**
+5. Upgrade the setup-tool **pip** with `pip3 install --upgrade pip`
+6. `pip3 install numpy matplotlib gensim` will install all pertinent Topic Modeling packages
 
 ***
 
