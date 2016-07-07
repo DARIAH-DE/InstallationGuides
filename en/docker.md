@@ -42,7 +42,7 @@ This message shows that your installation appears to be working correctly.
 
 ***
 
-## OSX
+## OS X
 ### Preparation
 1. To determine which version of OS X is installed, click the **Apple-symbol** top left
 2. Click **About this Mac**
