@@ -52,4 +52,4 @@ INFO: ---- DONE -----
 INFO: All files processed in 0,84 minutes
 ~~~
 
-**Note**: A CSV file with annotated text has been created and placed in the previously unpacked archive.
+**Note**: A [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) file with annotated text has been created and placed in the previously unpacked archive.
