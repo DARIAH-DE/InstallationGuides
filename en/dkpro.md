@@ -16,16 +16,16 @@
 
 **Note Windows users**: To determine whether a **32-bit** or **64-bit** version of Windows is installed, click with the right mouse button on the **Windows** icon, click **System**. Check the line **System Type**.
 
-#### DARIAH-DKPro-Wrapper einsatzbereit machen
-1. Downloaden Sie [hier](https://github.com/DARIAH-DE/DARIAH-DKPro-Wrapper/releases) das ZIP-Archiv des aktuellen Release, z. B. **ddw-0.4.5.zip**
-2. Entpacken Sie das Archiv
-3. Tippen Sie `cd /pfad/zum/entpackten/archiv` in das Terminal
-4. Achten Sie darauf, dass der tatsächliche [Pfad](https://de.wikipedia.org/wiki/Pfadname) angegeben ist und bestätigen mit Enter
+#### DARIAH-DKPro-Wrapper ready-to-use
+1. Download [here](https://github.com/DARIAH-DE/DARIAH-DKPro-Wrapper/releases) the ZIP-archive of the current release, e.g. **ddw-0.4.5.zip**
+2. Unpack the archive
+3. Type ` cd /path/to/extracted/archive` into the terminal
+4. Make sure that the actual [path](https://en.wikipedia.org/wiki/Path_(computing)) is set and press Enter
 
-#### DARIAH-DKPro-Wrapper benutzen
-1. Um den DKPro-Wrapper nun zu testen, downloaden Sie [hier](https://wiki.de.dariah.eu/download/attachments/40213783/EffiBriestKurz.txt) ein Textbeispiel
-2. Tippen Sie `java -Xmx4g -jar ddw-0.4.5.jar -language de -input /pfad/zu/EffiBriestKurz.txt -output .` in das Terminal und bestätigen nach Anpassung der Parameter (`/pfad/zu/EffiBriestKurz.txt` mit dem tatsächlichen Pfad zur Textdatei ersetzen) mit Enter
-3. Wenn nach etwa einer Minuten folgendes angezeigt wird, funktioniert der DARIAH-DKPro-Wrapper tadellos
+#### Using DARIAH-DKPro-Wrapper
+1. To test the DKPro-Wrapper, download a text example [here](https://wiki.de.dariah.eu/download/attachments/40213783/EffiBriestKurz.txt)
+2. Type `java -Xmx4g -jar ddw-0.4.5.jar -language de -input /pfad/zu/EffiBriestKurz.txt -output .` into the terminal, make sure the `-input` parameter leads to the actual file and press Enter
+3. If the following lines will be displayed, everything works out just fine
 
 ~~~
 INFO: Dependency Parsing: writeConstituency, false
@@ -52,4 +52,4 @@ INFO: ---- DONE -----
 INFO: All files processed in 0,84 minutes
 ~~~
 
-**Hinweis**: Eine CSV-Datei mit annotiertem Text wurde erstellt und in dem zuvor entpackten Archiv abgelegt.
+**Note**: A CSV file with annotated text has been created and placed in the previously unpacked archive.
