@@ -9,11 +9,11 @@
 - Linux: Key combination **Ctrl + Alt + T**
 
 #### Installing Java
-1. Type `java -version` into the terminal and press Enter to check whether the correct version is installed or not
+1. Type `java -version` into the terminal and press Enter to check whether the correct version is installed
 2. If `command not found` is displayed, download the appropriate installation file from the [Oracle website] (http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html) (at least v1.8)
 3. Follow the instructions of the installation manager
 
-**Note Windows users**: To determine whether a **32-bit** or **64-bit** version of Windows is installed, click with the right mouse button on the **Windows** icon, click **System**. Check the line **System Type**.
+**Note to Windows users**: To determine whether a **32-bit** or **64-bit** version of Windows is installed, right-click the **Windows** icon, click **System**, and check the line **System Type**.
 
 #### DARIAH-DKPro-Wrapper ready-to-use
 1. Download [here](https://github.com/DARIAH-DE/DARIAH-DKPro-Wrapper/releases) the ZIP-archive of the current release, e.g. **ddw-0.4.5.zip**
@@ -24,7 +24,7 @@
 #### Using DARIAH-DKPro-Wrapper
 1. To test the DKPro-Wrapper, download a text example [here](https://wiki.de.dariah.eu/download/attachments/40213783/EffiBriestKurz.txt)
 2. Type `java -Xmx4g -jar ddw-0.4.5.jar -language de -input /pfad/zu/EffiBriestKurz.txt -output .` into the terminal, make sure the `-input` parameter leads to the actual file and press Enter
-3. If the following lines will be displayed, everything works out just fine
+3. If the following lines are displayed, everything works out just fine
 
 ~~~
 INFO: Dependency Parsing: writeConstituency, false
