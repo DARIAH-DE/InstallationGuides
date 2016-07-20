@@ -12,27 +12,22 @@
 ***
 
 #### Windows: Vorbereitung
-1. Um festzustellen, ob auf Ihrem Computer eine 32-Bit oder 64-Bit Version von Windows installiert ist, klicken Sie mit der rechten Maustaste unten links auf das **Windows-Symbol**
-2. Klicken Sie auf **System**
-3. Im nun geöffneten Fenster kann in der Zeile **Systemtyp** die Version eingesehen werden
-4. Wenn eine 64-Bit Version installiert ist, klicken Sie [hier](https://download.docker.com/win/beta/InstallDocker.msi) um die Docker-Installationsdatei zu downloaden
-5. Wenn **Windows 7**, **Windows 8** oder die **32-Bit Variante von Windows 10** installiert ist, klicken Sie [hier](https://github.com/docker/toolbox/releases/download/v1.11.2/DockerToolbox-1.11.2.exe) um die korrekte Docker-Installationsdatei zu downloaden
+1. Um festzustellen, ob auf Ihrem Computer eine 32-Bit oder 64-Bit Version von Windows 10 installiert ist, klicken Sie mit der rechten Maustaste unten links auf das **Windows-Symbol**, anschließend auf **System**
+2. Im nun geöffneten Fenster kann in der Zeile **Systemtyp** die Version eingesehen werden
+3. Um die **64-Bit** Installationsdatei zu downloaden, klicken Sie [hier](https://download.docker.com/win/beta/InstallDocker.msi)
+4. Verfügen Sie über **Windows 7**, **Windows 8** oder die **32-Bit Variante von Windows 10**, klicken Sie [hier](https://github.com/docker/toolbox/releases/download/v1.11.2/DockerToolbox-1.11.2.exe) um die korrekte Installationsdatei zu downloaden
 
 #### Windows: Installation
-1. Öffnen Sie **InstallDocker.msi** bzw. **DockerToolbox-1.11.2.exe** mit einem Doppelklick
-2. Folgen Sie den Anweisungen
-3. Bevor Sie den Manager nach erfolgreicher Installation mit **Fertigstellen** beenden, vergewissern Sie sich, dass ein Häkchen bei **Docker ausführen** gesetzt ist
+1. Öffnen Sie **InstallDocker.msi** bzw. **DockerToolbox-1.11.2.exe** und folgen den Anweisungen
 
 #### Windows: Docker starten
-1. Wenn der Installationsmanager beendet wurde, startet Docker automatisch
-2. Der **Wal in der Statusleiste** weist darauf hin, dass Docker funktionstüchtig ist und über den [Terminal](https://de.wikipedia.org/wiki/Terminal_(Computer)) bedient werden kann
+1. Docker wird wie jedes andere Programm gestartet
+2. Der **Wal in der Statusleiste** weist darauf hin, dass Docker geöffnet ist und über die [Kommandozeile](https://de.wikipedia.org/wiki/Kommandozeile) bedient werden kann
 
-#### Windows: Terminal öffnen
+#### Windows: Kommandozeile öffnen und Installation überprüfen
 1. Öffnen Sie mit der Tastenkombination **Windowstaste + R** das Ausführen-Fenster
 2. Tippen Sie **cmd.exe** ein und bestätigen mit Enter
-3. Das Terminal, mit dem sich Docker bedienen lässt, öffnet sich
-4. Um zu überprüfen, ob Docker erfolgreich installiert wurde, tippen Sie `docker run hello-world` in das Terminal und bestätigen mit Enter
-5. Wenn folgende Meldung angezeigt wird, wurde Docker erfolgreich installiert
+3. Wenn nach Bestätigung des Befehls `docker run hello-world` in der Kommandozeile folgendes angezeigt wird, war die Installation erfolgreich
 
 ~~~
 Hello from Docker.
@@ -43,26 +38,22 @@ This message shows that your installation appears to be working correctly.
 ***
 
 #### OS X: Vorbereitung
-1. Um festzustellen, welche Version von OS X auf Ihrem Mac installiert ist, klicken oben links auf das **Apple-Symbol**
-2. Klicken Sie auf **Über diesen Mac**
+1. Um festzustellen, welche Version von OS X auf Ihrem Mac installiert ist, klicken Sie oben links auf das **Apple-Symbol**, anschließend auf **Über diesen Mac**
 3. Im nun geöffneten Fenster kann die Version des Betriebssystems eingesehen werden
-4. Wenn OS X 10.10 oder höher installiert ist, klicken Sie [hier](https://download.docker.com/mac/beta/Docker.dmg) um die Docker-Installationsdatei zu downloaden
-5. Wenn eine ältere Version als 10.10 installiert ist, klicken Sie [hier](https://github.com/docker/toolbox/releases/download/v1.11.2/DockerToolbox-1.11.2.pkg) um die korrekte Docker-Installationsdatei zu downloaden
+4. Wenn ≥ 10.10 installiert ist, klicken Sie [hier](https://download.docker.com/mac/beta/Docker.dmg) um die Installationsdatei zu downloaden
+5. Wenn < 10.10 installiert ist, klicken Sie [hier](https://github.com/docker/toolbox/releases/download/v1.11.2/DockerToolbox-1.11.2.pkg) um die korrekte Installationsdatei zu downloaden
 
 #### OS X: Installation
-1. Öffnen Sie **Docker.dmg** bzw. **DockerToolbox-1.11.2.pkg** mit einem Doppelklick
-2. Folgen Sie den Anweisungen
+1. Öffnen Sie **Docker.dmg** bzw. **DockerToolbox-1.11.2.pkg** und folgen den Anweisungen
 
 #### OS X: Docker starten
-1. Über das **Launchpad** kann Docker durch Klicken des Docker-Symbols gestartet werden
-2. Der **Wal in der Statusleiste** oben rechts weist darauf hin, dass Docker funktionstüchtig ist und über den [Terminal](https://de.wikipedia.org/wiki/Terminal_(Computer)) bedient werden kann
+1. Über das **Launchpad** kann Docker gestartet werden
+2. Der **Wal in der Statusleiste** weist darauf hin, dass Docker geöffnet ist und über die [Kommandozeile](https://de.wikipedia.org/wiki/Kommandozeile) bedient werden kann
 
-#### OS X: Terminal öffnen
+#### OS X: Kommandozeile öffnen und Installation überprüfen
 1. Öffnen Sie mit der Tastenkombination **cmd + Leertaste** die **Spotlight-Suche**
 2. Tippen Sie **terminal** ein und bestätigen mit Enter
-3. Das Terminal, mit dem sich Docker bedienen lässt, öffnet sich
-4. Um zu überprüfen, ob Docker erfolgreich installiert wurde, tippen Sie `docker run hello-world` in das Terminal und bestätigen mit Enter
-5. Wenn folgende Meldung angezeigt wird, wurde Docker erfolgreich installiert
+3. Wenn nach Bestätigung des Befehls `docker run hello-world` in der Kommandozeile folgendes angezeigt wird, war die Installation erfolgreich
 
 ~~~
 Hello from Docker.
@@ -73,8 +64,8 @@ This message shows that your installation appears to be working correctly.
 ***
 
 #### Linux Ubuntu: Vorbereitung
-1. Öffnen Sie mit der Tastenkombination **Strg + Alt + T** das Terminal und überprüfen Sie mit `uname -r` die Kernel-Version
-2. Um Docker problemlos nutzen zu können, muss mindestens **3.10** installiert sein
+1. Öffnen Sie mit der Tastenkombination **Strg + Alt + T** die Kommandozeile und überprüfen mit `uname -r` die Kernel-Version
+2. Um Docker uneingeschränkt nutzen zu können, muss mindestens **3.10** installiert sein
 3. Aktualisieren Sie die Package-Datenbank mit `sudo apt-get update`
 
 #### Linux Ubuntu: Installation
@@ -86,8 +77,7 @@ This message shows that your installation appears to be working correctly.
 
 3. Aktualisieren Sie nun die Package-Datenbank mit `sudo apt-get update` erneut
 4. Installieren Sie schließlich Docker mit `sudo apt-get install -y docker-engine`
-5. Um zu überprüfen, ob Docker erfolgreich installiert wurde, tippen Sie `docker run hello-world` in das Terminal und bestätigen mit Enter
-6. Wenn folgende Meldung angezeigt wird, wurde Docker erfolgreich installiert
+5. Wenn nach Bestätigung des Befehls `docker run hello-world` folgendes angezeigt wird, war die Installation erfolgreich
 
 ~~~
 Hello from Docker.
