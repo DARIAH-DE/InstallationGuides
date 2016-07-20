@@ -23,13 +23,13 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.91-b14, mixed mode)
 **Hinweis Windows Nutzer**: Um die korrekte Installationsdatei (**32-Bit** oder **64-Bit**) zu downloaden, klicken Sie mit der rechten Maustaste unten links auf das **Windows-Symbol**, anschließend auf **System**. Im nun geöffneten Fenster kann in der Zeile **Systemtyp** die erforderliche Version eingesehen werden. Die 64-Bit Version wird empfohlen, um ≥ 4 GB RAM bereitstellen zu können.
 
 #### DARIAH-DKPro-Wrapper einsatzbereit machen
-1. Downloaden Sie [hier](https://github.com/DARIAH-DE/DARIAH-DKPro-Wrapper/releases) das ZIP-Archiv des aktuellen Release, z. B. **ddw-0.4.5.zip**
+1. Downloaden Sie [hier](https://github.com/DARIAH-DE/DARIAH-DKPro-Wrapper/releases) das ZIP-Archiv des aktuellen Release, z. B. **ddw-0.4.6.zip**
 2. Entpacken Sie das Archiv
 3. Tippen Sie `cd /pfad/zum/entpackten/archiv` in die Kommandozeile
 4. Achten Sie darauf, dass der tatsächliche [Pfad](https://de.wikipedia.org/wiki/Pfadname) angegeben ist und bestätigen mit Enter
 
 #### DARIAH-DKPro-Wrapper benutzen (optional)
-1. Um den DKPro-Wrapper nun zu testen, downloaden Sie [hier](https://wiki.de.dariah.eu/download/attachments/40213783/EffiBriestKurz.txt) ein Textbeispiel
+1. Um den DKPro-Wrapper zu testen, downloaden Sie [hier](https://wiki.de.dariah.eu/download/attachments/40213783/EffiBriestKurz.txt) ein Textbeispiel
 2. Tippen Sie `java -Xmx4g -jar ddw-0.4.5.jar -language de -input /pfad/zu/EffiBriestKurz.txt -output .` in die Kommandozeile und bestätigen nach Anpassung des Parameters (`/pfad/zu/EffiBriestKurz.txt`) mit Enter
 3. Wenn nach etwa einer Minuten folgendes angezeigt wird, war die Installation erfolgreich
 
