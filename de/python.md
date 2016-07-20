@@ -16,8 +16,9 @@ Mithilfe dieser Anleitung können Sie Python 3 sowie die Pakete [numpy](http://w
 1. Klicken Sie [hier](https://www.python.org/ftp/python/3.5.2/python-3.5.2-amd64.exe) um die Installationsdatei zu downloaden
 2. Öffnen Sie die Datei `python-3.5.2.exe` und folgen den Anweisungen
 3. Achten Sie darauf, dass ein Häkchen bei **Add Python to PATH** gesetzt ist  
-4. Öffnen Sie mit der Tastenkombination **Windowstaste + R** die Kommandozeile und aktualisieren Sie das Setuptool **pip** mit dem Befehl `pip3 install --upgrade pip`
-5. Mit `pip3 install numpy matplotlib gensim` installieren Sie alle für Topic Modeling relevanten Pakete
+4. Öffnen Sie mit der Tastenkombination **Windowstaste + R** das Ausführen-Fenster und tippen **cmd.exe** ein
+5. Aktualisieren Sie das Setuptool **pip** mit dem Befehl `pip3 install --upgrade pip` über die Kommandozeile
+6. Mit `pip3 install numpy matplotlib gensim` installieren Sie alle für Topic Modeling relevanten Pakete
 
 ***
 
