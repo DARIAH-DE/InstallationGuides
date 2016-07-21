@@ -1,6 +1,5 @@
 # Installation Guides
-
-Zweisprachig vorhanden, aber noch nicht 100% fertig...
+Von unserer Seite aus fertig.
 
 ### Done:
 - Python
@@ -9,4 +8,4 @@ Zweisprachig vorhanden, aber noch nicht 100% fertig...
 - pip (nicht explizit, wird aber im Zuge der Python Installation erledigt)
 
 ### To-do:
-- Screencasts
+- Screencasts (Philip!)
