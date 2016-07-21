@@ -13,25 +13,19 @@
 
 ## Windows
 ### Preparation
-1. To determine whether a 32-bit or 64-bit version of Windows is installed on your machine, click on the **Windows icon** in the bottom left corner
-2. Select **System**
-3. Check the line **System Type**
-4. In case of a 64-bit version of Windows 10, click [here](https://download.docker.com/win/beta/InstallDocker.msi) to download the installation file
+1. To determine whether a 32-bit or 64-bit version of Windows is installed on your machine, click on the **Windows icon** in the bottom left corner, then **System**
+2. Check the line **System Type**
+4. To download the 64-bit version, click [here](https://download.docker.com/win/beta/InstallDocker.msi)
 5. Otherwise (using **Windows 7**, **Windows 8** or the **32-bit version of Windows 10**) click [here](https://github.com/docker/toolbox/releases/download/v1.11.2/DockerToolbox-1.11.2.exe) to download the correct installation file
 
-### Installation
-1. Open **InstallDocker.msi** resp. **DockerToolbox-1.11.2.exe** with a double-click
-2. Follow the instructions
-3. Before closing the window, make sure **Execute Docker** is selected
+### Installation and starting Docker
+1. Open **InstallDocker.msi** resp. **DockerToolbox-1.11.2.exe** with a double-click and follow the instructions
+2. After starting Docker, the **whale in the statusbar** points out that Docker is working well and is ready-to-use
 
-### Starting Docker
-1. After exiting, Docker will start automatically
-2. The **whale in the statusbar** points out that Docker is working well and is ready-to-use
-
-### Using the terminal
+### Using the command-line
 1. Open the Run-window using the shortcut **Windows key + R**
-2. Type **cmd.exe** and press Enter, the terminal opens
-3. Type `docker run hello-world` into the terminal and press Enter
+2. Type **cmd.exe** and press Enter, the command prompt opens
+3. Type `docker run hello-world` and press Enter
 5. If the following lines are displayed, everything works out just fine
 
 ~~~
@@ -44,24 +38,21 @@ This message shows that your installation appears to be working correctly.
 
 ## OS X
 ### Preparation
-1. To determine which version of OS X is installed, click the **Apple-symbol** in the top left corner
-2. Click **About this Mac**
-4. If OS X 10.10 or higher is installed, click [here](https://download.docker.com/mac/beta/Docker.dmg) to download the installation file
+1. To determine which version of OS X is installed on your Mac, click the **Apple-symbol** in the top left corner, then **About this Mac**
+2. If ≥ 10.10 installed, click [here](https://download.docker.com/mac/beta/Docker.dmg) to download the installation file
 5. Otherwise, click [here](https://github.com/docker/toolbox/releases/download/v1.11.2/DockerToolbox-1.11.2.pkg) to download the correct installation file
 
 ### Installation
-1. Open **Docker.dmg** resp. **DockerToolbox-1.11.2.pkg** with a double-click
-2. Follow the instructions
+1. Open **Docker.dmg** resp. **DockerToolbox-1.11.2.pkg** with a double-click and follow the instructions
 
 ### Starting Docker
 1. Click the Docker-symbol through [**Launchpad**](https://en.wikipedia.org/wiki/Launchpad_(OS_X))
 2. The **whale in the statusbar** points out that Docker is working well and can be used through the terminal
 
-### Using the terminal
-1. Open [**Spotlight**](https://en.wikipedia.org/wiki/Spotlight_(software)) using the shortcut **cmd + spacebar**
-2. Type **terminal** and press Enter
-3. Type `docker run hello-world` into the terminal and press Enter
-5. If the following lines are displayed, everything works out just fine
+### Using the command-line
+1. Open [**Spotlight**](https://en.wikipedia.org/wiki/Spotlight_(software)) using the shortcut **cmd + spacebar**, then type **terminal** and press Enter
+2. Type `docker run hello-world` into the command-line and press Enter
+3. If the following lines are displayed, everything works out just fine
 
 ~~~
 Hello from Docker.
